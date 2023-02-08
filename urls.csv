@@ -1,0 +1,11 @@
+url,text,text_selector,button,button_selector,scroll
+https://writer.com/ai-content-detector/,ai_textbox,CLASS_NAME,ai-content-detector-submit,CLASS_NAME
+https://crossplag.com/ai-content-detector/,text,ID,checkButtonAIGen,ID
+https://app.copyleaks.com/v1/scan/ai/embedded,//textarea,XPATH,//button,XPATH
+https://sapling.ai/utilities/ai-content-detector,//textarea,XPATH,
+https://gptzero.me/,//textarea,XPATH,//button[@type='submit'],XPATH,True
+https://huggingface.co/roberta-base-openai-detector,//span[@role='textbox'],XPATH,//button[@type='submit'],XPATH
+https://openai-openai-detector.hf.space/,//textarea,XPATH
+https://www.grammarly.com/plagiarism-checker,//textarea,XPATH,"//span[contains(text(),'Scan for plagiarism')]",XPATH
+https://grammica.com/plagiarism-checker,text,ID,check_plag,ID,True
+https://www.check-plagiarism.com/,textBox,ID,checkPlag,ID,True
