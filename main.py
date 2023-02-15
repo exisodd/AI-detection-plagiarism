@@ -56,7 +56,14 @@ def main():
 def read_content(file_path):
     try:
         with open(file_path, 'r') as f:
-            return f.read()
+            content = f.read()
+            try:
+                content = content.encode("utf-8")
+            except UnicodeDecodeError:
+                content = content.encode("ISO-8859-1")
+            content = content.decode("utf-8")
+            return content
+
     except:
         print("An error occurred while reading the file.")
 
